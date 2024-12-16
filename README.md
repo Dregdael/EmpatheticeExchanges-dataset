@@ -2,13 +2,13 @@
 
 This is a repository for article "EmpatheticExchanges: Towards Understanding the Cues for Empathy in Dyadic Conversations." in IEEE Access. 
 
-The main goal for this repository is the classification of empathy in textual exchanges using various classifiers.
+The main goal for this repository is to provide access to our novel dataset which presents a series of empathetic conversations separated into exchanges. These exchanges present a score for behavioral empathy using our novel *3ES* and *5ES* metrics. This can be used for classification of empathy in textual exchanges using various classifiers.
 
-We provide the original dataset the code to replicate the work found on the paper. 
+We provide the original dataset and the code to replicate the work found on the paper.
 
 In addition, we provide access to an enhanced dataset that contains more conversations labeled with our empathy metric, this one is called EmpatheticExchanges_extended.
 
-#Acknowledgements
+# Acknowledgements
 
 The following repository and database for the article EmpatheticExchanges: Towards Understanding the Cues for Empathy in Dyadic Conversations was developed with the help of the National Council of Humanities, Sciences, and Technology of Mexico (CONAHCYT),  Tecnologico de Monterrey and Honda Research Institute Japan Co., Ltd.
 
