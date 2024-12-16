@@ -1,0 +1,106 @@
+Best model
+
+l_word_len <= 6.000 AND questioning <= 0.997 AND exchange_number <= 2.000 AND l_neutral > 0.228 AND 0.002 < s_negative <= 0.171 AND
+s_word_len <= 21.000 AND suggesting <= 0.005 AND arousal_speaker <= -0.172 AND neutral <= 0.097
+1 count: 18.0 support: 2.0%  2 count: 0.0 support: 0.0%  3 count: 0 support: 0.0% 
+
+l_negative > 0.012 AND l_word_len <= 6.000 AND s_negative > 0.170 AND wishing > 0.000 AND questioning > 0.005 AND l_neutral > 0.066 AND 
+acknowledging > 0.000 AND l_neutral <= 0.893 AND arousal_listener <= 0.087 AND valence_listener <= 0.502 AND s_negative <= 0.884
+1 count: 0 support: 0.0%  2 count: 20.0 support: 2.0%  3 count: 0 support: 0.0% 
+
+
+l_word_len > 13.000 AND l_negative <= 0.015 AND s_positive <= 0.983 AND acknowledging <= 0.996 AND valence_speaker > -0.157 AND predictions_ER > 0.000 AND 
+neutral > 0.000 AND encouraging <= 0.000 AND arousal_speaker <= 0.062 AND agreeing <= 0.998 AND suggesting > 0.000 AND dominance_listener > -0.058
+1 count: 0.0 support: 0.0%  2 count: 0 support: 0.0%  3 count: 56.0 support: 3.0% 
+
+L + M 
+
+mimicry = 1 AND 5.000 < l_word_len <= 6.000 AND 6.000 < s_word_len <= 36.000
+1 count: 43.0 support: 5.0%  2 count: 55.0 support: 5.0%  3 count: 57.0 support: 3.0% 
+
+mimicry = 1 AND 5.000 < l_word_len <= 6.000 AND 6.000 < s_word_len <= 36.000
+1 count: 43.0 support: 5.0%  2 count: 55.0 support: 5.0%  3 count: 57.0 support: 3.0% 
+
+s_word_len > 5.000 AND mimicry = 1 AND 8.000 < l_word_len <= 9.000
+1 count: 27.0 support: 3.0%  2 count: 43.0 support: 4.0%  3 count: 89.0 support: 4.0% 
+
+VAD
+
+1.000 < l_word_len <= 6.000 AND s_word_len <= 6.000 AND valence_listener <= 0.786 AND dominance_speaker <= 0.342 AND 0.422 < valence_speaker <= 0.839 AND
+ arousal_listener > -0.480 AND dominance_listener <= 0.141
+1 count: 16.0 support: 2.0%  2 count: 0 support: 0.0%  3 count: 0 support: 0.0% 
+
+valence_speaker > 0.069 AND arousal_listener <= 0.266 AND 12 < l_word_len <= 22.000 AND -0.209 < arousal_speaker <= 0.144 AND
+dominance_listener > 0.163 AND dominance_speaker <= 0.306 AND 0.175 < valence_listener <= 0.576
+1 count: 4.0 support: 0.0%  2 count: 20.0 support: 2.0%  3 count: 85.0 support: 4.0% 
+
+arousal_speaker <= 0.026 AND l_word_len > 12.000 AND arousal_listener > -0.036 AND dominance_listener > 0.180 AND dominance_speaker > -0.057 AND valence_listener <= 0.576
+1 count: 1.0 support: 0.0%  2 count: 13.0 support: 1.0%  3 count: 64.0 support: 3.0% 
+
+Sentiment 
+
+l_word_len <= 6.000 AND s_neutral <= 0.870 AND s_negative <= 0.979 AND l_neutral > 0.424 AND 0.045 < l_negative <= 0.059 AND
+l_positive <= 0.424 AND s_positive <= 0.788
+1 count: 14.0 support: 2.0%  2 count: 0 support: 0.0%  3 count: 0 support: 0.0% 
+
+
+l_word_len <= 6.000 AND 7.000 < s_word_len <= 24.000 AND 0.067 < l_neutral <= 0.381 AND l_positive <= 0.932 AND 0.001 < s_negative <= 0.023
+l_negative <= 0.019 AND s_neutral <= 0.741
+1 count: 0 support: 0.0%  2 count: 14.0 support: 1.0%  3 count: 0 support: 0.0% 
+
+l_word_len > 12.000 AND s_word_len <= 22.000 AND 0.092 < s_positive > 0.656 AND 0.002 < l_negative <= 0.011 AND
+ s_neutral > 0.310 AND s_negative > 0.006 AND 0.747 < l_positive <= 0.979
+1 count: 0 support: 0.0%  2 count: 0 support: 0.0%  3 count: 33.0 support: 2.0% 
+
+EPITOME
+
+6.000 < l_word_len <= 12.000 AND predictions_ER <= 0.000 AND predictions_IP <= 0.000 AND predictions_EX > 1.000
+1 count: 107.0 support: 12.0%  2 count: 136.0 support: 13.0%  3 count: 239.0 support: 12.0% 
+
+6.000  < l_word_len <= 12.000 AND predictions_ER <= 0.000 AND predictions_IP <= 0.000 AND predictions_EX > 1.000
+1 count: 107.0 support: 12.0%  2 count: 136.0 support: 13.0%  3 count: 239.0 support: 12.0% 
+
+6.000 < l_word_len <= 12.000 AND predictions_ER <= 0.000 AND predictions_IP <= 0.000 AND predictions_EX > 1.000
+1 count: 107.0 support: 12.0%  2 count: 136.0 support: 13.0%  3 count: 239.0 support: 12.0% 
+
+Intent
+
+l_word_len <= 6.000 AND consoling <= 0.000 AND encouraging = 0.000 AND agreeing = 0.000 AND acknowledging = 0.000
+1.000 < s_word_len <= 38.000 AND questioning <= 0.997 AND sympathizing = 0.000
+1 count: 18.0 support: 2.0%  2 count: 0 support: 0.0%  3 count: 0.0 support: 0.0% 
+
+l_word_len > 12.000 AND acknowledging > 0.000 AND consoling <= 0.001 AND neutral <= 0.954 AND 0.001 < agreeing <= 0.010 AND
+ 0.000 < suggesting <= 0.001 AND sympathizing <= 0.001 AND encouraging <= 0.001 AND s_word_len > 12.000 AND questioning <= 0.516 AND
+  wishing <= 0.003
+1 count: 0 support: 0.0%  2 count: 15.0 support: 1.0%  3 count: 0.0 support: 0.0% 
+
+s_word_len > 18.000 AND sympathizing > 0.000 AND wishing <= 0.006 AND suggesting > 0.000 AND
+ consoling > 0.000 AND neutral > 0.000 AND acknowledging <= 0.336 AND 0.001 < encouraging <= 0.967 AND
+  6.000 < l_word_len <= 34.000 AND 0.000 < agreeing <= 0.391
+1 count: 0 support: 0.0%  2 count: 0 support: 0.0%  3 count: 37.0 support: 2.0% 
+
+32 emotions
+
+s_word_len <= 4.000 AND l_word_len > 2.000 AND listener_emotion != grateful AND listener_emotion != nostalgic AND l_word_len <= 5.000 AND listener_emotion != disgusted AND
+ listener_emotion != excited AND speaker_emotion != proud AND speaker_emotion != grateful AND listener_emotion != ashamed AND speaker_emotion != hopeful AND listener_emotion != proud AND
+  listener_emotion != terrified AND speaker_emotion != caring
+1 count: 13.0 support: 1.0%  2 count: 0.0 support: 0.0%  3 count: 0 support: 0.0% 
+
+l_word_len > 6.000 AND speaker_emotion = disappointed AND 19.000 < s_word_len <= 44.000 AND listener_emotion != grateful AND listener_emotion != anxious AND
+ listener_emotion != joyful AND listener_emotion != excited AND listener_emotion != angry AND listener_emotion != nostalgic AND listener_emotion != sad
+1 count: 0 support: 0.0%  2 count: 15.0 support: 1.0%  3 count: 0.0 support: 0.0% 
+
+2.000 < s_word_len <= 6.000 AND l_word_len > 15.000 AND speaker_emotion != annoyed AND speaker_emotion != grateful AND speaker_emotion != trusting AND speaker_emotion != anxious AND 
+listener_emotion != sentimental AND listener_emotion != anticipating AND listener_emotion != content
+1 count: 0.0 support: 0.0%  2 count: 0 support: 0.0%  3 count: 30.0 support: 1.0% 
+
+20 emotions 
+
+s_word_len <= 4.000 AND l_word_len > 2.000 AND listener_emotion != grateful AND speaker_emotion != grateful AND listener_emotion != nostalgic AND listener_emotion != excited AND speaker_emotion != proud AND listener_emotion != disgust AND l_word_len <= 5.000 AND speaker_emotion != hopeful AND speaker_emotion != caring AND speaker_emotion != devastated AND listener_emotion != ashamed AND speaker_emotion != trust
+1 count: 14.0 support: 2.0%  2 count: 0.0 support: 0.0%  3 count: 0 support: 0.0% 
+
+l_word_len > 6.000 AND s_word_len > 19.000 AND speaker_emotion = disappointed AND s_word_len <= 44.000 AND listener_emotion != grateful AND listener_emotion != fear AND listener_emotion != joy AND listener_emotion != excited AND listener_emotion != nostalgic AND l_word_len <= 16.000
+1 count: 0 support: 0.0%  2 count: 13.0 support: 1.0%  3 count: 0 support: 0.0% 
+
+l_word_len > 13.000 AND s_word_len > 7.000 AND s_word_len <= 8.000 AND listener_emotion != hopeful AND listener_emotion != sadness AND speaker_emotion != disgust AND speaker_emotion != caring
+1 count: 0 support: 0.0%  2 count: 0.0 support: 0.0%  3 count: 28.0 support: 1.0% 
