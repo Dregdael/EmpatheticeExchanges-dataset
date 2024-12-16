@@ -6,7 +6,7 @@ import numpy as np
 
 def load7EmotionsModel():
     #MODEL = "bdotloh/just-another-emotion-classifier"
-    access_token = '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'
+    #access_token = 
     MODEL = "emo-nlp/7-emo"
     tokenizer = AutoTokenizer.from_pretrained(MODEL, token = access_token)
     #config = AutoConfig.from_pretrained(MODEL)
